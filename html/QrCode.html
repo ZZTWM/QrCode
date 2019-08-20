@@ -1,0 +1,19 @@
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=GBK">
+<script src="../js/jquery.min.js"></script>
+<script src="../js/jquery.qrcode.min.js"></script>
+ 
+</head>
+ 
+<div style="width:800px;margin:50px auto;text-align:center">
+<h1>Hello!</h1>
+<div id="qrcode"></div>
+ 
+</div>
+ 
+<script>
+$(function(){
+    $('#qrcode').qrcode({render:'canvas',text:"Hello!",width:260,height:260});   
+});
+ 
+</script>
